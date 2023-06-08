@@ -3,8 +3,9 @@ CycleGan
 
 Structure
 This work makes use of two networks:
-•             Image classifier (fully original effort): This network is trained to classify the given images into two decoration styles.
-•             CycleGAN: We have modified the original implementation (https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix) by removing the identity mapping loss, which yields better style classification results (section 5.3 in the final report) compared to the original implementation.
+
+1. Image classifier (fully original effort): This network is trained to classify the given images into two decoration styles.
+2. CycleGAN: We have modified the original implementation (https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix) by removing the identity mapping loss, which yields better style classification results (section 5.3 in the final report) compared to the original implementation.
 
 Dataset
 The dataset used in this work was collected and processed by ourselves. It is available on Google Drive. https://drive.google.com/file/d/18cfRTjo2bohzSYs7oul3gSp9fgSME4eF/view?usp=sharing
